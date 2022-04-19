@@ -1,0 +1,71 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
+.newsCard{
+    text-align: center;
+    padding: 6%;
+    width: 50%;
+    background-color: #ffffff;
+    margin-top: 4%;
+
+}
+
+.titleNews{
+    font-family: 'Abel', sans-serif;
+    background-color: #000000;
+    font-size: 150%;
+    text-transform: uppercase;
+    padding: 0.6%;
+    color: #fff;
+}
+
+.introductingNews{
+    font-family: 'Abel', sans-serif;
+    font-size: 130%;
+    margin-top: 4%;
+    padding: 3%;
+    text-transform: uppercase;
+    background: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.buttons{
+    background-color: #000000;
+    border: none;
+    width: 30%;
+    padding: 1%;
+    margin-top: 4%;
+    font-size: 100%;
+    cursor: pointer;
+    color: #fff;
+    transition: all 1s;
+}
+
+.buttons:hover{
+    transition: all 1s;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.buttonMore{
+    position: fixed;  
+    bottom: 15px;
+}
